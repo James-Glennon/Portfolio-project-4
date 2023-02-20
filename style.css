@@ -1,7 +1,13 @@
-header{
+h1{
     color: red;
+    padding-top: 16px;
+    padding-left: 8px;
 }
 
 p{
-    color: blue;
+    margin: 0;
+}
+
+.address{
+    padding-top: 16px;
 }

@@ -64,3 +64,9 @@ for Managerial staff;
 
 - To see who is working that day (outside project scope)
 ---
+
+## Credit / References
+
+HTML coded using [Bootstrap](https://getbootstrap.com/)
+
+Fav icon gererated with [Favicon.io](https://favicon.io/)

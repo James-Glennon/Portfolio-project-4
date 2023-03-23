@@ -8,6 +8,10 @@
     <meta name="author" content="James Glennon">
     <meta name="keywords" content="restaurant, cooking">
     <title>Portfolio Project 4</title>
+    <!-- Links to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
     <!-- Links to favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -23,13 +27,13 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-top">
         <div class="container-fluid bg-lavander">
             <div class="row">
                 <div class="col-sm-6">
                     <h1>The<br> Restaurant</h1>
                 </div>
-                <div class="col-sm-6 pt-sm-3 address">
+                <div class="address col-sm-6 pt-sm-3  d-none d-sm-block">
                     <!-- Address and contact info -->
                     <p>Sample address line 1</p>
                     <p>address line 2</p>
@@ -41,7 +45,7 @@
         <!-- /Address and contact info -->
         <!-- Nav -->
         <nav>
-            <div class="container bg-info ">
+            <div class="container-fluid bg-navbar ">
                 <ul class="nav justify-content-center text-decoration-none ">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#home">
@@ -55,7 +59,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="../menu.html">
-                            <p>Menu (New Tab)</p>
+                            <p>Menu</p>
                         </a>
                     </li>
                 </ul>
@@ -67,7 +71,7 @@
     <main>
         <!-- About Us -->
         <div class="container bg-secondary" id="home">
-            <h2>About us</h2>
+            <h2 class="text-center text-sm-left">About us</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore
@@ -90,7 +94,14 @@
         <!-- /About us -->
         <!-- Booking -->
         <div class="container bg-dark text-white" id="booking-container">
-            <h2>Booking</h2>
+            <h2 class="text-center text-sm-left">Booking</h2>
+            <div class="address text-center pb-3  d-block d-sm-none">
+                <!-- Address and contact info -->
+                <p>Sample address line 1</p>
+                <p>address line 2</p>
+                <p>address line 3</p>
+                <p>Phone no.: (000)888-8888</p>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore

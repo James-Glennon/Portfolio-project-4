@@ -1,18 +1,25 @@
-body{
+body {
     background-color: aquamarine;
+    font-family: 'Raleway', sans-serif;
 }
 
-h1{
+h1,
+h2 {
+    font-family: 'Oswald', san-serif;
+}
+
+h1 {
     color: red;
     padding-top: 16px;
     padding-left: 8px;
+
 }
 
-p{
+p {
     margin: 0;
 }
 
-header{
+header {
     width: 100%;
     margin: 0;
     border: 0;
@@ -27,6 +34,10 @@ header{
 
 .bg-menu {
     background-color: rgb(202, 198, 136);
+}
+
+.bg-navbar {
+    background-color: #188fa1;
 }
 
 /* Menu item styling */

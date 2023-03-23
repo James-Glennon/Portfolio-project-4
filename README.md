@@ -70,3 +70,5 @@ for Managerial staff;
 HTML coded using [Bootstrap](https://getbootstrap.com/)
 
 Fav icon gererated with [Favicon.io](https://favicon.io/)
+
+custom fonts imported from [Google fonts](https://fonts.google.com/)
